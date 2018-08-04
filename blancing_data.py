@@ -4,11 +4,12 @@ from collections import Counter
 from random import shuffle
 
 
-training_data = np.load('training_data.npy')
+training_data = np.load('training_data-5-balanced.npy')
 
 
 df = pd.DataFrame(training_data)
 print(df.head())
+print(len(training_data))
 print(Counter(df[1].apply(str)))
 '''
 lefts = []
