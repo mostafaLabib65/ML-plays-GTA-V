@@ -12,8 +12,8 @@ Then you will need to run the main file and start driving a car around to collec
 # Training
 Now it's time to train the model. Just run training.py file and set the path to the trainig data you have just collected.
 
-# Let the model play the game.
+# Let the model play the game
 To test the model and see it actually playing just run test.py file. Don't forget to set the path to the model. Don't forget to do the instructions in Collecting the data section before running test.py.
 
-# Future work.
+# Future work
 The model is now capable of just driving a car around. The next step maybe to train a model to avoid obstacles.
